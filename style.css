@@ -1,0 +1,67 @@
+html{
+  font-family: Helvetica;
+}
+
+
+.coolTitle {
+  text-align: center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 40px;
+  transform: skewY(-10deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: tomato;
+  text-shadow:
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey;
+}
+p{
+  font-size: 20px;
+}
+.done {
+  text-decoration: line-through;
+}
+
+.container>ul>li{
+  font-size: 25px;
+  list-style: decimal;
+  padding: 15px;
+  cursor: pointer;
+}
+.container>ul>li:hover{
+  color: darkgreen;
+}
+.delete{
+  background-color:#52d543;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 20px;
+  border: none;
+  font-size: 15px;
+  padding: 5px 10px;
+  margin-left: 20px;
+}
+.delete:hover{
+  background-color: red;
+}
+#enter{
+  padding: 5px 10px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  border: none;
+}
+#enter:hover{
+  background-color: red;
+}
+#userInput{
+  font-size: 20px;
+}
